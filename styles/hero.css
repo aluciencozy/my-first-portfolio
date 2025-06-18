@@ -10,6 +10,10 @@
   padding: 2rem;
 }
 
+.hero__btn-image-wrapper {
+  border: 1px solid blue;
+}
+
 .hero::before {
   content: '';
   position: absolute;
@@ -130,9 +134,17 @@
 
 /* lg */
 @media (min-width: 1024px) {
+  .hero {
+    flex-direction: row;
+  }
+
   .hero__title {
     font-size: var(--size-2xl);
     animation: typing 4s steps(60) 1s forwards;
+  }
+
+  .hero__btn-image-wrapper {
+    border: 1px solid red;
   }
 
   .hero__subtitle {
