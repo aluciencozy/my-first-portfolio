@@ -45,6 +45,7 @@
   height: .4em;
   left: 0;
   top: .85em;
+  background-color: var(--clr-pink);
   z-index: -1;
   opacity: 85%;
 }

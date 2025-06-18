@@ -39,7 +39,7 @@
   color: var(--clr-slate400);
   font-family: 'JetBrains Mono';
   font-size: var(--size-base);
-  animation: typing 2.5s steps(36) 1s forwards;
+  animation: typing 2s steps(58) 1s forwards;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
@@ -70,12 +70,24 @@
 }
 
 @keyframes typing {
-  from {
+  0% {
     width: 0;
   }
 
-  to {
-    width: 100%;
+  30.33% {
+    width: 5ch;
+  }
+
+  30.34% {
+    width: 5ch;
+  }
+
+  68.33% {
+    width: 5ch;
+  }
+
+  100% {
+    width: 19ch;
   }
 }
 
@@ -105,7 +117,7 @@
 
   .hero__title {
     font-size: var(--size-lg);
-    animation: typing 3s steps(36) 1s forwards;
+    animation: typing 2s steps(58) 1s forwards;
   }
 
   .hero__subtitle {
@@ -132,7 +144,7 @@
 @media (min-width: 1024px) {
   .hero__title {
     font-size: var(--size-2xl);
-    animation: typing 4s steps(60) 1s forwards;
+    animation: typing 2s steps(52) 1s forwards;
   }
 
   .hero__subtitle {

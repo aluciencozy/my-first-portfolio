@@ -1,0 +1,38 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about__title {
+  margin-bottom: 1.5rem;
+}
+
+.about__description {
+  color: var(--clr-slate400);
+  max-width: 60ch;
+}
+
+.about__divider {
+  border: 1px solid var(--clr-slate800);
+}
+
+.skills__wrapper {
+  margin-top: 1.5rem;
+  font-family: 'JetBrains Mono';
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.skills__title {
+  color: var(--clr-light);
+}
+
+.skills__skill {
+  padding: 0.5em 1em;
+  background-color: var(--clr-light);
+  border-radius: 5px;
+  color: var(--clr-dark);
+  box-shadow: 0 12px 20px rgba(69, 162, 158, 0.35), 0 6px 6px rgba(69, 162, 158, 0.35), 0 0 100px -10px var(--clr-teald);
+}
