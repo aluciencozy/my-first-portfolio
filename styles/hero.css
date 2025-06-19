@@ -10,6 +10,7 @@
   padding: 2rem;
 }
 
+/* Hero before and after create the corner borders */
 .hero::before {
   content: '';
   position: absolute;

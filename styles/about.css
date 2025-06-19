@@ -1,16 +1,18 @@
 .about {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .about__title {
   margin-bottom: 1.5rem;
+  font-size: var(--size-2xl);
 }
 
 .about__description {
   color: var(--clr-slate400);
   max-width: 60ch;
+  font-size: var(--size-base);
 }
 
 .about__divider {
@@ -22,17 +24,116 @@
   font-family: 'JetBrains Mono';
   display: flex;
   flex-wrap: wrap;
-  gap: 1em;
+  gap: 1.5em;
 }
 
 .skills__title {
+  font-size: var(--size-xl);
   color: var(--clr-light);
 }
 
 .skills__skill {
+  font-size: var(--size-sm);
   padding: 0.5em 1em;
   background-color: var(--clr-light);
   border-radius: 5px;
   color: var(--clr-dark);
-  box-shadow: 0 12px 20px rgba(69, 162, 158, 0.35), 0 6px 6px rgba(69, 162, 158, 0.35), 0 0 100px -10px var(--clr-teald);
+  box-shadow: 0 12px 20px rgba(69, 162, 158, 0.35), 0 6px 6px rgba(69, 162, 158, 0.35), 0 0 50px -10px var(--clr-teald);
 }
+
+/* xs */
+@media (min-width: 475px) {
+  .about {
+    gap: 3rem;
+  }
+
+  .about__title {
+    margin-bottom: 2rem;
+    font-size: var(--size-3xl);
+  }
+
+  .about__description {
+    font-size: var(--size-lg);
+  }
+
+  .skills__wrapper {
+    margin-top: 2rem;
+    gap: 2em;
+  }
+
+  .skills__title {
+    font-size: var(--size-2xl);
+  }
+
+  .skills__skill {
+    font-size: var(--size-base);
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+@media (min-width: 1024px) {
+  .about {
+    flex-direction: row;
+    gap: 4rem;
+  }
+
+  .about__title {
+    margin-bottom: 2.5rem;
+    font-size: var(--size-4xl);
+  }
+
+  .about__description {
+    font-size: var(--size-xl);
+  }
+
+  .skills__wrapper {
+    margin-top: 2.5rem;
+    gap: 2.5em;
+  }
+
+  .skills__title {
+    font-size: var(--size-3xl);
+  }
+
+  .skills__skill {
+    font-size: var(--size-lg);
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+    .about {
+    gap: 4.5rem;
+  }
+
+  .about__title {
+    margin-bottom: 3rem;
+    font-size: var(--size-5xl);
+  }
+
+  .about__description {
+    font-size: var(--size-2xl);
+  }
+
+  .skills__wrapper {
+    margin-top: 3rem;
+    gap: 3em;
+  }
+
+  .skills__title {
+    font-size: var(--size-4xl);
+  }
+
+  .skills__skill {
+    font-size: var(--size-xl);
+  }
+}
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
