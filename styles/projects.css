@@ -18,7 +18,7 @@
 
 .projects__project {
   background-color: var(--clr-gray);
-  border-radius: 10px;
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   padding: 2rem;

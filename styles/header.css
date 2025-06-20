@@ -27,6 +27,7 @@
 
 .header__btn {
   font-size: var(--size-xs);
+  cursor: pointer;
 }
 
 /* xs */

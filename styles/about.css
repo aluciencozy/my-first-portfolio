@@ -39,6 +39,12 @@
   border-radius: 5px;
   color: var(--clr-dark);
   box-shadow: 0 12px 20px rgba(69, 162, 158, 0.35), 0 6px 6px rgba(69, 162, 158, 0.35), 0 0 50px -10px var(--clr-teald);
+  transition: color .3s, background-color .3s;
+}
+
+.skills__skill:hover {
+  background-color: var(--clr-slate400);
+  color: var(--clr-light);
 }
 
 /* xs */
