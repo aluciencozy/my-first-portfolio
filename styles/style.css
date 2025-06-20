@@ -43,7 +43,7 @@ html {
 
 body {
   font-family: 'Chillax', sans-serif;
-  background-color: var(--clr-dark);
+  background: linear-gradient(to right top, #0b0c10, #0d0e13, #0f1015, #111217, #121419);
   color: var(--clr-light);
 }
 

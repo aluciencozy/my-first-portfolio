@@ -1,3 +1,16 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 1em;
+}
+
 .footer__title {
   text-align: center;
   color: var(--clr-slate800);
@@ -6,3 +19,33 @@
   letter-spacing: 0.15em;
   user-select: none;
 }
+
+.footer__icons svg {
+  width: 2em;
+  height: 2em;
+  fill: white;
+  transition: transform 0.3s, fill 0.3s;
+}
+
+.footer__icons svg:hover {
+  transform: translateY(-5px);
+  fill: var(--clr-teall);
+}
+
+/* xs */
+/* @media (min-width: 475px) {} */
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* lg */
+/* @media (min-width: 1024px) {} */
+
+/* xl */
+/* @media (min-width: 1280px) {} */
+
+/* 2xl */
+/* @media (min-width: 1536px) {} */
